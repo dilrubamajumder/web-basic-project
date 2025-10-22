@@ -5,6 +5,7 @@ body {
     background-color: #000000;
     color: #ffffff;
 }
+
 /* nav */
 
 .navbar nav {
@@ -12,7 +13,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background: transparent;
-    padding: 5px;
+    padding: 3px;
 
 }
 
@@ -22,7 +23,7 @@ body {
     display: flex;
     list-style: none;
     padding-left: 35px ;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 #nav-logo a{
@@ -56,4 +57,140 @@ body {
 #nav-items :hover{
     text-decoration: underline #e88c45;
 
+}
+
+
+/* Intro section text*/
+
+#intro-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: #0d0d0d;
+    padding: 5%;
+    gap: 20px;
+}
+
+.intro-text{
+    max-width: 60%;
+    height: auto;
+    text-align: left;
+    font-size: 30px;
+    padding-left: 5%;
+    padding-top: 10%;
+}
+
+.highlighted-name {
+    font-weight: bold;
+    color: #ec9940;
+}
+.welcome-heading{
+    font-size: 62px;
+    font-weight: bold;
+}
+
+
+/* Intro section image */
+.intro-image-container{
+    width: 40%;
+    padding-right: 5%;
+}
+
+
+.intro-image-container img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: -15px auto;
+    position: relative;
+    border: 5px solid #efbe89;
+}
+
+
+.img-content{
+    font-size: 15px;
+    text-align: center;
+    color: #dfdfe3;
+    text-decoration: underline;
+}
+
+
+
+
+
+/* see more button*/
+
+.see-more-btn {
+    margin-top: 15px;
+    padding: 12px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #808ee0; 
+    border-radius: 8px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.see-more-btn:hover {
+    background-color: #e88c45;
+    border: 2px solid #808ee0; 
+    color: white;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    
+    #intro-container {
+        flex-direction: column; 
+        align-items: center;  
+  
+    }
+
+    .intro-text,
+    .intro-image {
+        width: 100%; 
+        max-width: 100%; 
+        text-align: center; 
+    }
+
+    .intro-text {
+        font-size: 20px; 
+    }
+
+    .welcome-heading {
+        font-size: 40px; 
+        text-align: center;
+    }
+    
+    .img-content {
+        text-align: center;
+    }
+
+    .see-more-btn {
+        display: block;
+        margin: 15px ; 
+    }
+
+    .intro-image-container{
+        width: 50%;
+        padding-right: 5%;
+    }
+    
+  
+}
+
+
+
+
+
+
+/* footer */
+
+.copyright-text{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #bdbbbb;
 }

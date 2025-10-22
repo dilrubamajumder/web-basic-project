@@ -57,3 +57,23 @@ body {
     text-decoration: underline #e88c45;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+.copyright-text{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #bdbbbb;
+}
