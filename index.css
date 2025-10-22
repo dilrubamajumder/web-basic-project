@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: transparent;
+    background: rgb(0, 0, 0);
     padding: 3px;
 
 }
